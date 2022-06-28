@@ -8,8 +8,7 @@ jobs:
      
       - name: Install Japanese font
         run: |
-          sudo apt-get install language-pack-ja
-          sudo apt-get install japan*
+          sudo apt-get install fonts-horai-umefont
           
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v1
